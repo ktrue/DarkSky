@@ -220,3 +220,7 @@ If Standalone and running in a custom page:
 **Download:**[ **DS-forecast.css**](./DS-forecast.css) (Version 1.00 - 24-Jan-2019)  
 
 **Download**:[ **Icon Set** ](https://saratoga-weather.org/saratoga-icons2.zip)(upload to your website in the **/forecast/images** directory)  
+
+# Sample output
+
+<img sce="./sample-output.php" alt="sample output">
