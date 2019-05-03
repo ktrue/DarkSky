@@ -223,4 +223,4 @@ If Standalone and running in a custom page:
 
 # Sample output
 
-<img sce="./sample-output.php" alt="sample output">
+<img sce="./sample-output.png" alt="sample output">
