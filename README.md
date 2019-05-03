@@ -223,4 +223,4 @@ If Standalone and running in a custom page:
 
 # Sample output
 
-<img sce="./sample-output.png" alt="sample output">
+<img src="./sample-output.png" alt="sample output">
