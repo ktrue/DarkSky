@@ -1,11 +1,13 @@
 # DarkSky International forecast formatting script - multilingual
 
+DarkSky was acquired by Apple on 31-May-2020 and **is no longer issuing new API keys**.  Existing API keys will work until the end of 2021.  **Do Not install this script unless you have a working DarkSky API key**
+
 Note that the DarkSky API only provides Daily forecasts, so no night-time forecast icons are available. While DarkSky provides international versions of the forecast, it is only one short sentence and used as the icon description. The DS-forecast-lang.php provides translation capabilities for Saratoga Template languages for additional text added to the text forecast from data provided by DarkSky API (i.e. Temperature High/Low, Probibility of precipation, Wind direction, speed and gust, UV index ). The DS-forecast-lang.php is provided as a separate script for easy update as new languages are added. Currently the following languages are supported (in addition to English: af,bg,cs,ct,de,dk,el,es,fi,fr,he,hu,it,nl,no,pl,pt,ro,se,si,sk,sr
 
 In order to use this script you need to:
 
 1.  Register for and acquire a free DarkSky API key.
-    1.  Browse to [https://darksky.net/dev](https://darksky.net/dev) and sign in to acquire an API key
+    1.  ~~Browse to [https://darksky.net/dev](https://darksky.net/dev) and sign in to acquire an API key~~ (**No longer available after 31-Mar-2020**)
     2.  insert the API key in **$DSAPIkey** in the DS-forecast.php script or as **$SITE['DSAPIkey']** in _Settings.php_ for Saratoga template users.
     3.  Customize the **$DSforecasts** array (or **$SITE['DSforecasts']** in _Settings.php_) with the location names, latitude/longitude for your forecasts. The first entry will be the default one for forecasts.
 2.  Use this script ONLY on your personal, non-commercial weather station website.
